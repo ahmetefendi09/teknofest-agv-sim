@@ -1,0 +1,28 @@
+==================================================
+ TEKNOFEST AGV OTONOM SIMULASYONU - CALISTIRMA KILAVUZU
+==================================================
+
+1. Projeyi baska bir Linux PC'ye tasidiginizda, eger hazir 
+   calismazsa once temizleyip tekrar derleyin:
+   
+   make clean && make
+
+2. Oyunu / Simulasyonu tek komutla baslatmak icin:
+   
+   ./baslat.sh
+
+   Veya dogrudan:
+   
+   make run
+
+==================================================
+ KONTROLLER:
+ - Sol Tik: Serbest hat cizimi
+ - Shift + Sol Tik: Cetvel modu (90 deg duz cizgi)
+ - Sag Tik: Engel ekle / kaldir
+ - T: Istasyon ekle (T1, T2...)
+ - K: Kutu ekle (K1, K2...)
+ - R: Robotu ve HOME alanini en yakin cizgiye kilitle (Aci=0)
+ - C: Parkuru sifirla
+ - WMS Terminali: 't1k t2b / t3k t4b' seklinde gorev girin.
+==================================================
